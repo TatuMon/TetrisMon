@@ -127,16 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="TetrisMon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TetrisMon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="TetrisMon.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="small.ico" />
